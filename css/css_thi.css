@@ -1,0 +1,178 @@
+body {
+  background-color: #ecf0f6;
+}
+.header-thi {
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 70px;
+  box-shadow: 0px 2px 5px rgba(174, 171, 171, 0.2);
+}
+
+/* .btn-thoat */
+.btn-thoat {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(117deg, rgb(254, 145, 80), rgb(254, 100, 70));
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  margin: 15px 0px 0px 220px;
+  padding: 1px 10px 1px 10px;
+  text-decoration: none;
+}
+.btn-thoat:hover,
+.btn-thoat:focus {
+  background: linear-gradient(117deg, rgb(248, 137, 73), rgb(248, 82, 49));
+  box-shadow: 0 0.1rem 0.8rem rgb(254, 100, 70);
+}
+
+/* btn nop bai */
+.btn-submit {
+  position: fixed;
+  top: 15; /* Vị trí từ trên cùng */
+  left: 1220;
+  background: linear-gradient(45deg, #00b5ff, #005eff);
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow 0.3s, transform 0.3s;
+  z-index: 100;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  padding: 3.5px 10px 12px 10px;
+}
+.btn-submit:hover,
+.btn-submit:focus {
+  background: linear-gradient(117deg, #00b5ff, #005eff);
+  box-shadow: 0 0.1rem 0.8rem #005eff;
+}
+
+/* container-list */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Tạo 4 cột có kích thước bằng nhau */
+  column-gap: 150px;
+}
+.item {
+  text-align: left; /* Căn chỉnh văn bản */
+  font-size: 23px; /* Kích thước phông chữ */
+  line-height: 50px;
+  position: relative;
+  top: -15px;
+}
+.item1 {
+  text-align: left; /* Căn chỉnh văn bản */
+  font-size: 23px; /* Kích thước phông chữ */
+  line-height: 50px;
+  position: relative;
+  top: -15px;
+  grid-row: 2;
+}
+
+.grid-container {
+  margin-top: 80px;
+  margin-left: 180px;
+  padding: 20px;
+}
+
+.card-cauhoi {
+  width: 700px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  grid-column: 2 / 5;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 2px 5px rgba(174, 171, 171, 0.2);
+  margin-bottom: 20px;
+}
+.body-dapan {
+  background-color: #0665d1;
+  width: 710px;
+  height: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  right: 10px;
+  box-shadow: 0px 2px 5px rgba(174, 171, 171, 0.2);
+}
+
+.radio-input {
+  display: flex;
+  flex-direction: row;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -15px;
+  left: 160px;
+}
+
+.radio-input input[type="radio"] {
+  display: none;
+}
+
+.radio-input label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-input input[type="radio"]:checked + label:before {
+  background-color: green;
+  top: 0;
+}
+
+.radio-input input[type="radio"]:checked + label {
+  background-color: #fea500;
+  color: #000000;
+  border-color: #fea500;
+  animation: radio-translate 0.5s ease-in-out;
+}
+.card-list {
+  background-color: #ffffff;
+  width: 400px;
+  height: auto;
+  float: right;
+  position: fixed;
+  top: 100; /* Vị trí từ trên cùng */
+  left: 940;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-show-cauhoi {
+  background-color: #ffffff;
+  color: #000;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #8e8989;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.selected {
+  background-color: #007bff; /* Màu sắc khi chọn */
+  color: white;
+}

@@ -1,0 +1,139 @@
+.body-history {
+  width: 90%;
+  height: auto;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(174, 171, 171, 0.2);
+  padding: 20px;
+}
+.hashtag {
+  border-radius: 20px;
+  background-color: #f0f8ff;
+  color: #3574c4;
+  padding: 5px;
+  font-size: 15px;
+  width: 70px;
+  margin: -35px 0px 0px 10px;
+}
+.input-none {
+  font-size: 20px;
+}
+
+.btn-chitiet {
+  font-family: monospace;
+  background-color: #c3c4c6;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  width: 100px;
+  height: 35px;
+  transition: 0.3s;
+  margin: 5px 0px 0px 900px;
+}
+
+.btn-chitiet:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+
+/* css show dap an  */
+.container-dapan {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Tạo 4 cột có kích thước bằng nhau */
+  column-gap: 150px;
+  margin-left: 50px;
+}
+.item {
+  text-align: left; /* Căn chỉnh văn bản */
+  font-size: 23px; /* Kích thước phông chữ */
+  line-height: 50px;
+  position: relative;
+  top: 0px;
+}
+.item1 {
+  text-align: left; /* Căn chỉnh văn bản */
+  font-size: 23px; /* Kích thước phông chữ */
+  line-height: 50px;
+  position: relative;
+  top: 0px;
+  grid-row: 2;
+}
+
+.grid-container {
+  margin-left: -20px;
+}
+
+.card-cauhoi {
+  width: 720px;
+  height: auto;
+  background-color: #f0f8ff;
+  border-radius: 5px;
+  grid-column: 2 / 5;
+  padding-left: 10px;
+  padding-top: 10px;
+  box-shadow: 0px 2px 5px rgba(58, 55, 55, 0.2);
+  margin-bottom: 20px;
+  color: #000000;
+  margin-left: 250px;
+}
+.body-dapan {
+  background-color: #0665d1;
+  width: 720px;
+  height: 50px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  right: 10px;
+  box-shadow: 0px 2px 5px rgba(174, 171, 171, 0.2);
+}
+
+.radio-input {
+  display: flex;
+  flex-direction: row;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: -14px;
+  left: 200px;
+}
+
+.radio-input input[type="radio"] {
+  display: none;
+}
+
+.radio-input label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.btn-thoat {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(117deg, rgb(254, 145, 80), rgb(254, 100, 70));
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  margin: 15px 0px 0px 0px;
+  padding: 1px 10px 1px 10px;
+  text-decoration: none;
+}
+.btn-thoat:hover,
+.btn-thoat:focus {
+  background: linear-gradient(117deg, rgb(248, 137, 73), rgb(248, 82, 49));
+  box-shadow: 0 0.1rem 0.8rem rgb(254, 100, 70);
+}

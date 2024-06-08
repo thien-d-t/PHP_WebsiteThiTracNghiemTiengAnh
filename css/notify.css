@@ -1,0 +1,249 @@
+.notify_exam{
+    width: 40%;
+    margin: 20px auto 10px;
+    background-color:cadetblue; 
+    border-radius: 5px;
+    padding: 24px 14px;
+}
+
+.notify_exam > h2{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notify{
+    display: flex;
+    padding: 12px;
+    width: 100%;
+}
+
+.notify_left{
+    width: 70%;
+}
+
+.notify_left>p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.notify_right{
+    width: 30%;
+    margin-left: 5rem;   
+}
+
+.notify_right>p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.congratulations{
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid red;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #ff3333;
+    border-radius: 6px;
+}
+
+.btnClickDetails_none{
+    margin-left: 30%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.notify_exam_score {
+    margin-top: -5.5rem;
+}
+
+.score_exam{
+    width: 40%;
+    margin: 0 auto;
+    background-color:cadetblue; 
+    border-radius: 5px;
+    padding: 12px 14px;
+    top: -10rem;
+}
+
+.score_exam>h2{
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details_exam{
+    display: flex;
+    padding: 12px;
+    width: 100%;
+}
+
+.details_exam_left{
+    width: 70%;
+}
+
+.details_exam_left>p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.details_exam_right{
+    width: 70%;
+}
+
+.details_exam_right>p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+
+/* ==================================== Display exam ==============================================*/
+.header_display_exam{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    z-index: var(--z-fixed);
+  }
+  
+  .nav{
+    position: relative;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.nav_menu_exam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.nav_menu_exam button{
+    width: 18vh;
+    height: 5vh;
+    font-size: 17px;  
+    background-color: #ff3333;
+    color: #000;
+    border-radius: 4px; 
+    cursor: pointer;
+}
+
+.nav_menu_exam button:hover{
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+}
+.name_user {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 15px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.time_doing_exam {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.time_doing_exam i {
+    margin-right: 2px;
+    font-size: 18px;
+}
+
+.send_exam {
+    margin-left: 1rem;
+    width: 18vh;
+    height: 5vh;
+    background-color: 	 #1aff1a;
+    color: #000;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.send_exam:hover{
+    background-color: #00cc00;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Main Display Exam */
+.conten__exam{
+    display: flex;
+    padding-top: 3px;
+    width: 100%;
+}
+
+.choose_answer{
+    width: 80%;
+    background-color: #ccffcc;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    padding: 14px;
+}
+
+.row>h6{
+    font-size: 14px;
+    margin-bottom: .25rem;
+}
+
+.row ul li{
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.show_question_did{
+    width: 20%;
+    padding: 6px;
+    background-color: #ffffff;
+}
+
+.number__questions{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;  
+    margin-top: 3px;
+}
+
+.number__questions > li{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #000;
+}
+
